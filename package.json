@@ -1,0 +1,28 @@
+{
+  "name": "sycle-express-explorer",
+  "version": "0.0.2",
+  "description": "Browse and test your Sycle app's APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sycle/sycle-express-explorer.git"
+  },
+  "author": "Tao Yuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sycle/sycle-express-explorer/issues"
+  },
+  "homepage": "https://github.com/sycle/sycle-express-explorer",
+  "dependencies": {
+    "lodash.clonedeep": "^3.0.1",
+    "loopback-explorer": "^1.7.2"
+  },
+  "devDependencies": {
+    "express": "^4.12.4",
+    "sycle": "sycle/sycle",
+    "sycle-express-rest": "sycle/sycle-express-rest"
+  }
+}
