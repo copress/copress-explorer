@@ -18,10 +18,10 @@
   "homepage": "https://github.com/sycle/sycle-express-explorer",
   "dependencies": {
     "lodash.clonedeep": "^3.0.1",
-    "loopback-explorer": "^1.7.2"
+    "loopback-explorer": "^1.8.0"
   },
   "devDependencies": {
-    "express": "^4.12.4",
+    "express": "^4.13.0",
     "sycle": "latest",
     "sycle-express-rest": "latest"
   }

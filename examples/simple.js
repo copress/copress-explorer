@@ -5,6 +5,7 @@ var express = require('express');
 var rest = require('sycle-express-rest');
 var explorer = require('../');
 var port = 3000;
+var host = '0.0.0.0';
 
 // create express application
 var app = express();
@@ -34,7 +35,8 @@ app.use('/explorer', explorer(sapp, {
     version: '1.0'
 }));
 app.use(apiPath, rest(sapp));
-console.log("Explorer mounted at localhost:" + port + "/explorer");
 
 // start server
-app.listen(port);
+app.listen(port, function () {
+    console.log("Explorer mounted at localhost: http://" + host + ":" + port + "/explorer");
+});
