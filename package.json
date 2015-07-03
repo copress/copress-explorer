@@ -1,6 +1,6 @@
 {
   "name": "sycle-express-explorer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Browse and test your Sycle app's APIs",
   "main": "index.js",
   "scripts": {
