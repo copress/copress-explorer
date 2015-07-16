@@ -1,6 +1,6 @@
 {
   "name": "copress-explorer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Browse and test your Copress app's APIs",
   "main": "index.js",
   "scripts": {
