@@ -9,7 +9,7 @@ module.exports = explorer;
 /**
  * Example usage:
  *
- * var explorer = require('sycle-express-explorer');
+ * var explorer = require('copress-explorer');
  * app.use('/explorer', explorer(sapp, options));
  */
 function explorer(sapp, options) {

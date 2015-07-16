@@ -2,7 +2,7 @@
 
 var sycle = require('sycle');
 var express = require('express');
-var rest = require('sycle-express-rest');
+var rest = require('copress-rest');
 var explorer = require('../');
 var port = 3000;
 var host = '0.0.0.0';

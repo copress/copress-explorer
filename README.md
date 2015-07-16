@@ -1,4 +1,4 @@
-sycle-express-explorer
+copress-explorer
 =============
 
 Browse and test your Sycle app's APIs.
@@ -10,7 +10,7 @@ Below is a simple Sycle application. The explorer is mounted at `/explorer`.
 ```js
 var sycle = require('sycle');
 var express = require('express');
-var rest = require('sycle-express-rest');
+var rest = require('copress-rest');
 var explorer = require('../');
 var port = 3000;
 
